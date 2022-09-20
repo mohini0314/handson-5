@@ -1,0 +1,137 @@
+*{
+  margin: 0%;
+  padding:0%;
+} 
+body {
+   border: 10px groove greenyellow;
+   background-image: url("./hand-painted-watercolor-background-with-sky-clouds-shape.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+.header {
+   display: inline-block;
+}
+
+.box1 {
+   display: inline-block;
+   position: absolute;
+   border: 7px solid red;
+   height: 100px;
+   width: 300px;
+   border-radius: 30px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   font-style: italic;
+   margin-top: 40px;
+   margin-left: 60px;
+   padding-left: 20px; 
+}
+
+.box2 {
+   display: inline-block;
+   position: absolute;
+   border: 7px solid red;
+   height: 50px;
+   width: 500px;
+   border-radius: 20px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   font-style: italic;
+   margin-top:50px;
+   margin-left: 290px;
+   padding-left: 110px;
+   padding-top: 10px;
+}
+
+.box3 {
+   display: inline-block;
+   position: absolute;
+   border: 7px solid red;
+   height: 150px;
+   width: 300px;
+   border-radius: 20px;
+   background-color: black;
+   color: white;
+   font-size: 25px;
+   font-style: italic;
+   text-align: center;
+   padding-bottom: 20px;
+   margin-top: 40px;
+   margin-left: 1100px;
+}
+
+.circle {
+   display: inline-block;
+   height: 300px;
+   width: 400px;
+   border: 7px solid rgb(95, 94, 94);
+   background-color: rgb(36, 171, 149);
+   border-radius: 50%;
+   padding-top: 100px;
+   margin-top: 400px;
+   margin-left: 60px;
+   text-align: center;
+   font-style: italic;
+   font-weight: bolder;
+   text-decoration: underline;
+}
+
+.rectangle {
+   display: inline-block;
+   background-color: white;
+   position: absolute;
+   border: 10px dashed red;
+   margin-left: 170px;
+   margin-top: 250px;
+   height: 700px;
+   width: 400px;
+   text-align: center;
+}
+.register{
+font-size: 30px;
+color: rgb(206, 105, 105);
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.menu{
+   display: inline-block;
+   text-align: center;
+   padding-left: 200px;
+   padding-right: 200px;
+   margin-left: 500px;
+   margin-top: 200px;
+   border: 7px solid red;
+   background-color: black;
+   color: white;
+   position: absolute;
+   font-style: italic;
+   border-radius: 20px;
+   font-size: 30px;
+}
+.row{
+   display: flex;
+   margin: 20px auto 0;
+   justify-content: space-between;
+   justify-content: space-around;
+   flex-flow: wrap;
+}
+.list{
+   background-color: aqua;
+   border: 7px solid rgb(23, 122, 44);
+   border-radius: 20px;
+   height: 300px;
+   flex-basis: 30%;
+   text-align: center;
+   font-size: 30px;
+   color: rgb(3, 65, 119);
+   }
+.list ul{
+   padding-left: 30px;
+   padding-top: 11%;
+}  
+.list ul li{
+   padding-left: 40%;
+}
